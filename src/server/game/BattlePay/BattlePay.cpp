@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (C) 2008-2018 TrinityCore <https://www.trinitycore.org/>
  *
  * This program is free software; you can redistribute it and/or modify it
@@ -105,7 +105,7 @@ void Manager::LoadFromDB()
             uint8 bannerType = fields[fieldIndex++].GetUInt8();
             uint8 choiceType = fields[fieldIndex++].GetUInt8();
             float price = fields[fieldIndex++].GetFloat();
-            uint32 serverHardcodedId = fields[fieldIndex++].GetUInt32();
+            uint32 serverHardcodedId = fields[fieldIndex++].GetUInt32();    // 这个是啥？
             uint32 displayCreature = fields[fieldIndex++].GetUInt32();
             uint32 displayFileData = fields[fieldIndex++].GetUInt32();
             uint32 displayItem = fields[fieldIndex++].GetUInt32();
